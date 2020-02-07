@@ -1,0 +1,174 @@
+/* BASE STYLES */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+ /* GRID */
+ .full-width {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ .half-width {
+     width: 600px;
+     float: left;
+ }
+ .third-width {
+     width: 400px;
+     float: left;
+ }
+
+/* HEADER */
+header {
+    height: 800px;
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUVFRUVFRUVFRUVFRUXFhUVFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PFSsZFRktKy0tKy0rLS0tKystLSstNy0rKy03LS0tLS03LTcrLS03Nys3LS0tNystNzctKzctN//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QALhAAAgIBAgUDAwIHAAAAAAAAAAECAxEEIRITMUFRYaHwcZHBgdEFFCIyUnLh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwUE/8QAGxEBAQEBAAMBAAAAAAAAAAAAAAERAhIxQSH/2gAMAwEAAhEDEQA/APWKJK6tx1dWOoSR7OvvDgOMSYCSCokEkRIJRIIolqJaQfCRFJE4RqRGiagEiIakWojQtRBlWaOEGRNTWbhGRiXKPkpRLuqjiCoDlEtxJqazygKcTXJCJxNStQhorAxxBSNaocFYGYKaAEoIpooTOIDQ9oCUQEkG8l+CE2ByQSRUQsAVgtILBaRERBxLUS1EmouMBnAXBBsxamlqJeBiRfCTTQxiGohpFszazpbQtoc0C4llXSOAZwBqAXCL0aCMSSiGokaJozyQtofOIvhyblXSJQB4DS4gtGtXSGgZIe0DKJdVnaJga4ANFAMW5DZIVKJVDzX6kK4SDIY0IuIAaRAyKGqIuA+KM1mqig1EtINRM2oqKDUS4oIxazqlEvAWCGdTQlpFoiAjRQRMAVghCwKwCwisAA0DwjSYLq6Q2C4jpQJwGtXSOECSHuIEka1dZ5C8DZgNm40VIBjGKkaiqIUQB0YjIxKQ2KM2ouMRkUSKGwiZtZSMQ1EtIvBztREgiJFmbWVIsvBCIrBEiyAQoIoCiELAEshCqoheCAUyi8EwNQtgNDWgJRNRqM8kJnE1yQmxHSVuMriAx8hMjcaLwQvBDQ1RQ2MRUWNiznWTYobFCoyGxOdZo0Wii0YZWiyFoiIUWQCiFlMCyiIsCiyEAohZAKKZbKwBCEKKqFFtgtlCpiZodITI6RuESQpjbGIlI6RqKyQHJC4pkJDoSMsZGit5JUrXWPTM0GOizl0xTUEAmFk5s0SCBLTIiyEIBGQhAIQhAIQhAIUQsgojRZRQJTYTQDLFQGRYDZqKCbEyeBk5CLJHSRqE2zEuYczNPY6RsWSCOIhRorRrpWEZa5JfPngfXLJm/qNSY6ImA2LMVmnRCYvIaOdZGmECiGUEWUVkiCIQgEIQgEKRZCIhCiyqhTLKYAsFhNipM1FiNgNhMXI1I0VMTYPkKmdI1GaZmsZptMdnU20DPzJQHCv8l7fuWNiakJ+TTS2mc2F5u0t6CulTYaFIwxe+Ua4MzYlaIMfEzRHQfk5dMU5Fi4yGIxWULIQiLIQoCyFFgQhCAQplkArILZbAZYsUA2FKQmUjcjUMbFSYTYEmakUuTM9sh8zLdI3GoTa2c6+w3WyRyNTLc0oOIgniIUPjBGqpdEjn029zfC70A6lD7GyDOPG9rc203e/Qlg6MGNcjHXIfFnOxmw+Mx6ZlTGRZjqM2H5LRUWWc6whCFNgEUVFhAQhWCAWUyEApipDWLkWLCmLYbYEmdY2tsXJkYuxlUFszJbIbOZkumdI0VbI5+o+htsZz9TMoTkoTl+WQA6LEsGlak5UZsfx7YA6MbvubNPc9vJ5/nM6H8Os3WQPT0ttGqLOdTPPT7GpWmbErUmNrZi5nQdXYc+ozWyDDyZa7BsZnO8s4dxAOQPFkiGGGRYSYCLbIlGBkmSZIicRGwJsqMzWLgsgSYTYqUiyNQMmLCYqyeDcVJvBntkSUzPbbg6SNSE3Wb9TNbYFfJGHUS8GlSduDLZMpsROQFcRBGfoQAYT2LUgISI2A2LH1p5z2MdE8M0wuA72jua+x0NNd5OJpLkaHd4A7ec7+w+JytLqn3+ep0NPcmjNRqhEbBYERmNUzFSmNl8wQ5gSsJ4pjTGfqEpGGNg6No8TGlWg2TEcZFIniYJzJGRTaKiaDozAsYHEU5EwwuUxFkgrX3MM7tzpI0K+wyO7OwGpt7rwYVcaVrbeDPb57g8/1FW6gBd2DJOzAy15M8ogL5pQGEWAMWHlGWp5HMApY7Fwz3CrrS/ql9uvRr1H5z+CBtVr6GlWy2z7CKENSRRvonuvHudTSY7HEqZ1dHZt6gdSM8Do2GFPP1GuxGcQ52gcXYySt7BRsGLjSVGQqNofGAxsOEsGZ5Di/uMRpcgeMS54/BaZA7IEpASmKnaXAVjOffLfsapz9THqIFVh1DbMfC0zXbIy2TKAVmBF0y5SM182BExNtrB5oq2YE5xQji+ZKAbU8P2N0HFJZe/o9+nnPr1ObLVRjjhzl5f08d91t7h0W53ZPaNkpZee4+OTG1vlGiu3sVWiMthkLTOp9kDFtMDoUtmzTXPv5OfC3YbprHkDsrU4Ku1HgySlgCdqYGqu7ce5MwVz3Rtb2AN2YC55ksmBCW++wHR5vqMhPD6mHnKK/pf1z5Brv9TPtHSlYupcb8mF3fMiZ3JfUqunOwVKawcyWreepFquxRslaZ53biHqDPOzcBl8kYbJDJ2GKyeQJKwTfYKukZZ27gHFrJJvsZ3YE3tkAcIsVxLyUBhoty8GuFrWyOZSbIS9QOnTeO5uxy1ZhjVft1A6cbcmlWHGrux3NULMvwBuVqyaKbsP6mKIyLA6M9QDCzqY4yyw7Z4A303Z/Q2O/ZHBrtNH8y/OwHQjZv1BuvxujnvUA23Aaf5nPc0KzbrucuNiL524HT5zQud2TM7QFMDVK0B2md2i3LLA2u3bIudgiMinLYC7JmS+9IC+7DM0ppgVffkw2ajHUbattjPOtQWZYz2Xfon990QaqZLOZNYwn+j2+oOo1edl0OLfq3J+F2Wc4z16+pHdsEdDmMhzua/UhVMo7fPBoh0+5ZALq/u/Uf3IQBlZvq6L52IQDREZ/wsgBLqVqOiIQAYdPnkOH7kIBaJMhAAXcpFkAc/2KIQCkVX+SEAJ9QZ/kogGPU/PuYrPnsQgEo6r52Zi/jPb/AFIQz9T64s+o3syEKpBCEKP/2Q==");
+    background-size: cover;
+}
+header h1 {
+    color: #2b2b2b;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+    text-decoration: underline overline;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2b2b2b;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #2b2b2b;
+    padding: 20px 0 20px 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+}
+header h2 span {
+    color: #522073;
+}
+
+ /* ABOUT SECTION */
+ #about .full-width {
+     padding: 80px 0;
+ }
+ #about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+ }
+ #about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ #about #plant-gif {
+     margin-right: 180px;
+     float: right;
+     margin-top: -30px;
+ }
+ #about .bigger-butterfly{
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 50px;
+ }
+ #about span {
+     color: #522073;
+     font-weight: bold;
+ }
+
+ /* WORK SECTION */
+#work {
+    text-align: center;
+    background: #D4A7F2;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+#work .small-butterfly {
+    padding-bottom: 30px;
+    height: 50px;
+    width: 50px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background: #E2C9F2;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    float: right;
+    border: 12px solid #8758A6;
+    border-radius: 55px;
+}
+#contact h2, #contact #email, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 15px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color:  #522073;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
